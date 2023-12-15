@@ -1,0 +1,100 @@
+.registers .registers_title {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+}
+.registers {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.registers {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.gird_smb {
+    margin: 0 -30px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.wrapper_smb {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.registers h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+p.registerss_error {
+    color: #f00;
+    display: none;
+}
+.registers .registerss_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.registers .registerss_main .register_col {
+    width: 100%;
+}
+.registers .registerss_main .register_main {
+    width: 100%;
+    margin-top: 25px;
+}
+.registers .registerss_main .register_main label {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.registers .registerss_main .register_main > span {
+    display: none;
+    color: #f00;
+    margin-bottom: 5px;
+}
+.registers .registerss_main .register_main input {
+    display: flex;
+    width: 100%;
+    border: solid 1px #cecbc6;
+    padding-left: 20px;
+    background-color: transparent;
+    height: 45px;
+}
+.register_col_50 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.genders #setC {
+    display: flex;
+}
+.genders #setC #setC_male,.genders #setC #setC_female{
+    width: 20px !important;
+    margin: 0px 20px 0px 20px;
+}
+
+button#registers_submit img {
+    display: none;
+    width: 40px;
+}
+
+.register_col_50 .register_col {
+    width: 48% !important;
+}
+.register_main_bottom span {
+    margin-left: 50px;
+}
+.register_main_bottom a {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #000;
+}
+.register_main_bottom a:hover{color: #f00;}

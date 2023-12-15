@@ -1,0 +1,92 @@
+
+.hidden-seoh{visibility:hidden;height:0px;margin:0px;overflow:hidden;}
+.wrap-main{margin:40px auto;width: calc(100% - 20px); max-width: 1200px;}
+.wrap-content{max-width:1200px;width: calc(100% - 20px);}
+.wrap-home{max-width:100%;padding:0px;width: 100%;margin: 0 auto;}
+.wrap-content{margin:auto;}
+.maib-body{position: relative;}
+body{margin: 0 auto;top: 0;font-size: 12px;font-weight: 400;background-color:#f5f6f8 ;font-family: 'Lato', sans-serif;}
+.hidden-sm{display: none;}
+li{list-style-type: none;}
+li a{text-decoration: none;color: #000;}
+li a:hover{color: red;}
+/* header */
+#page-topbar{position: fixed;top: 0;right: 0;left: 0;z-index: 1002;background-color: #fff;-webkit-box-shadow: 0 2px 3px -2px rgba(0,0,0,.15);box-shadow: 0 2px 3px -2px rgba(0,0,0,.15);}
+.header{display: flex;height: 70px;}
+.header .header-left{width: 250px;-webkit-box-shadow: 0 2px 3px -2px rgba(0,0,0,.15);
+    box-shadow: 0 2px 3px -2px rgba(0,0,0,.15);}
+.header .header-left a{display: flex;justify-content: center;text-decoration: none;color: #000;margin-top: 10px;border-right: 1px solid #e6e6e6}
+.header .header-left a img{width: 70px;height: 50px;}
+.header .header-left a p{font-size: 30px;}
+.header .header-right{width: calc(100% - 250px);z-index: 999;}
+.header .header-right .site-header-right{display:flex;padding: 0px 10px 0px 10px;}
+.header .header-right .site-header-right .site-header-menu-left{width: 50%;display: flex;height: 100%;}
+.header .header-right .site-header-right .site-header-menu-right{width: 50%;height: 100%;}
+.header .header-right .site-header-right .site-header-menu-left .menu{width: 30%;text-align: center;justify-content: center;align-items: center;line-height: 70px;font-size: 25px;;color: #3a4971}
+.header .header-right .site-header-right .site-header-menu-left .menu:hover{cursor: pointer;;color: #f37971 !important;}
+.header .header-right .site-header-right .site-header-menu-left .site-nav-seach{width: 55%;background: #e6e6e6;height: 30px;margin: 20px 0px 0px 0px;}
+.header .header-right .site-header-right .site-header-menu-left .site-nav-seach input{ height: 30px;float: left;outline: none;padding: 0px;border: 0px;background: transparent;text-indent: 10px;font-size: 12px;color: #000;width: 80%;}
+.header .header-right .site-header-right .site-header-menu-left .site-nav-seach p{float: left;width: 20%;height: 60px;cursor: pointer;text-align: center;color: var(--color-gray);margin-top: 5px;}
+.header .header-right .site-header-right .site-header-menu-right{ line-height: 70px;justify-content: right;padding-right: 30px;}
+.header .header-right .site-header-right .site-header-menu-right .right-menu .people-logo{text-align: right;padding-right: 30px;}
+.header .header-right .site-header-right .site-header-menu-right .right-menu .people-logo i{padding-right: 3rem;font-size: 1rem;color: #636f83}
+.header .header-right .site-header-right .site-header-menu-right .right-menu .people-logo i:hover{color: rgb(0 0 0 / 81%)}
+.header .header-right .site-header-right .site-header-menu-right .right-menu .people-logo img{width: 30px;height: 24px;border-radius: 1rem;}
+
+/* nav */
+.nav-main{border-right: 1px solid #e6e6e6;width:calc(250px);z-index: 1001;background: #fff;bottom: 0;margin-top: 0;position: fixed;top: 70px;-webkit-box-shadow: 0 2px 3px -2px rgba(0,0,0,.15);box-shadow: 0 2px 3px -2px rgba(0,0,0,.15);padding-top: 10px;}
+.nav-left .menu-left li.menu-item{font-size: 15px;padding-bottom: 20px;font-weight: 500;cursor: pointer;}
+.nav-left .menu-left li.menu-item a:hover{font-weight: bold;color: #f37971 !important;}
+.nav-left .menu-left li.menu-main{font-size: 14px;margin-bottom: 10px; font-weight: 500;}
+.nav-left .menu-left li a{text-decoration: none;color: #3a4971;margin-left: 30px}
+.nav-left .menu-left li span i{margin-right: 30px;}
+
+
+.rem-icon{display: flex;justify-content: center;}
+/* page */
+.main-content{margin-left: 250px;}
+.main-content .main{padding-top: calc(70px);padding-bottom: 60px;}
+.breadcrumb{width: 100%;background: #fff;padding: .2rem;border-bottom: 1px solid rgba(0,0,21,.7);color:#636f83}
+.page-main{margin: 2%;}
+.m-b-2{margin-bottom: 2rem;}
+.modal-lg {max-width: 50% !important;}
+.icon-table-edit:hover,.icon-table-delete:hover{color: #000;}
+.icon-table-edit{color: blue;}
+.icon-table-delete{color: red;}
+#createPost{margin-right: 1rem}
+.m-g-1{margin: 1rem}
+.bootstrap-tagsinput{width: 100%}
+.bootstrap-tagsinput .tag{background: #5bc0de;;border: 1px solid black;padding: 0 6px;margin-right: 2px;color: white;border-radius: 4px}
+.text-over{display: inline-block;width: 80px;white-space: nowrap;overflow: hidden !important;text-overflow: ellipsis}
+.p-e-5{padding-right: 20px !important}
+.c-b{color: #0d6efd}
+.page-main .card .card-header{display: flex;}
+.page-main .card .card-header .card-header-left{width: 70%;font-weight: bold;font-size: 20px;display: flex;}
+.page-main .card .card-header .card-header-left span{width: 20%;}
+.page-main .card .card-header .card-header-left form{width: 80%;}
+.page-main .card .card-header .card-header-right{width: 30%; text-align: right;padding-right: 10px;}
+.page-main .card .card-header .card-header-right button li{font-size: small;}
+/* page create*/
+
+.page-main-create{margin-left: 20px;}
+.page-main-create .card .card-header{display: flex;}
+.page-main-create .card .card-header .card-header-left-item{width: 80%;font-size: 20px;font-weight: bold;}
+.page-main-create .card .card-header .card-header-right-item{width: 20%;}
+
+.page-main-create .card .card-body .button-card button{font-size: 12px;}
+
+
+/* image */
+.image_upload{height: 100px;margin-top: 10px; display: flex;}
+.image_upload .item{padding: 10px; border: 1px solid #03559c;border-radius: 10px;width: 20%;margin-right: 10px;position: relative;}
+.image_upload .item .image_a_upload img{width: 100%;height: 80px;}
+.image_upload .item .item-icon{position: absolute;top: 5px;right: 3px;color: red;}
+
+.img_table img{height: 35px;width: 35px;}
+.l-heght{line-height: 35px;}
+
+/* create product*/
+.attribute-size-info .attribute-size-info-row .atribute-info-css{margin: 10px;font-size: 15px;}
+.attribute-size-info .attribute-size-info-row .atribute-info-css .row .delete-icon{color: red}
+.attribute-size-info .attribute-size-info-row .atribute-info-css .row .input-size-quality{width: 100%;padding: 2px;}
+.attribute-size label.attribute-title span.span-attribute{background: black;color: white;padding: 4px;border: 1px;border-radius: 50%;}
